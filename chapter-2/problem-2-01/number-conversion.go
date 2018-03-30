@@ -25,3 +25,26 @@ func main() {
 	fmt.Printf("Answer C:\nHexadecimal: 0x%s\nInteger: %d\nBinary: %s\n\n", rawHex2, int2, bin2)
 	fmt.Printf("Answer D:\nHexadecimal: 0x%x\nInteger: %d\nBinary: %s\n\n", int4, int4, rawBinary2)
 }
+
+/*
+Output:
+Answer A:
+Hexadecimal: 0x25B9D2
+Integer: 2472402
+Binary: 1001011011100111010010
+
+Answer B:
+Hexadecimal: 0xae49
+Integer: 44617
+Binary: 1010111001001001
+
+Answer C:
+Hexadecimal: 0xA8B3D
+Integer: 691005
+Binary: 10101000101100111101
+
+Answer D:
+Hexadecimal: 0x322d96
+Integer: 3288470
+Binary: 1100100010110110010110
+*/
